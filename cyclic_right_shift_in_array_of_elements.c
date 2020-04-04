@@ -8,11 +8,11 @@ template<class T>
 void right_Shift(T *ele,int n,int r){
 	int i,j=0;
 	ele=(T*)realloc(ele,(n+r)*sizeof(int));
-    for(i=n-1;i>=n-r-1;i--){
+    for(i=n-1;i>=n-r;i--){
         ele[i+r]=ele[i];
     }
     for(i=0;i<r;i++){
-        ele[i+3]=ele[i];
+        ele[i+r]=ele[i];
     }
     for(i=n;i<=n+r-1;i++){
         ele[j++]=ele[i];

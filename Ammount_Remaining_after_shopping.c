@@ -108,7 +108,34 @@ int main(){
 }
 
 
+Algorithm:
+1. Form a structure of bank details.
+struct bank_details{
+    char acc_name[10];
+    int acc_no;
+    float balance;
+};
 
+Structure of mall_details 
+struct mall_details{
+    char name[10];
+    int no_of_items;
+};
+
+structure of items
+struct item{
+    char item_name[10];
+    float item_cost;
+}; 
+
+2.Take input of no of bank customers. and make array as struct bank_details[n]
+3. Take input details of cutomer
+4.Do this same for mall_details.
+5.Now itterating through the mall_customers details check details of Sherly.
+  if(ban_details-> cutomer_name == "Sherly") print item_names.
+6.Side-by-side calculate total cost of items.
+7. Then Itterating through the bank details check bank_balance of Sherly.
+8. Print left_bank_balance of Sherly by subtracting cost of items from bank balance of Sherly.
 
 
 

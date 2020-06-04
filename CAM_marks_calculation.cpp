@@ -34,7 +34,7 @@ void add(Patmarks p1,Bonus b1){
         cout<<60<<endl;
     }
     else{
-        cout<<((p1.total+b1.bmarks)*60/40)<<endl;
+        cout<<((p1.total+b1.bmarks)*60/50)<<endl;
     }
 
 }
